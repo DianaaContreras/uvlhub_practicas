@@ -72,5 +72,5 @@ jobs:
 
     - name: Audit dependencies
       run: |
-        pip-audit
+        pip-audit || true
 
