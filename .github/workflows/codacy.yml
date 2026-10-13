@@ -62,7 +62,7 @@ jobs:
       env:
         CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
 
-    - name: Verify new version of the dpendencies
+    - name: Verify new version of the dependencies
       run: | 
         python -m pip list --outdated
 
